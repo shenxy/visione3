@@ -11,7 +11,7 @@ a {
   max-width: 100%;
   height: auto;
 }
-.content, .footer, .clearfix {
+.header, .content, .footer, .clearfix {
   clear: both;
 }
 
@@ -71,13 +71,7 @@ span.menu  {
   -o-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
-/*
-  -moz-osx-font-smoothing: grayscale;
-  -ms-osx-font-smoothing: grayscale;
-  -o-osx-font-smoothing: grayscale;
 
-  position: relative;
-*/
   transition-property: color;
   -webkit-transition-property: color;
   -o-transition-property: color;
@@ -143,14 +137,14 @@ span.menu  {
   padding: 1em;
   border-top: 0.1em dotted #356191;
 }
-.content h3 {
+.content h1 {
   margin: 1em 0em;
   font-size: 1.5em;
   font-weight: bold;
   color: #356191;
   text-align: center;
 }
-.content h4 {
+.content h2 {
   margin: 1em 0em;
   font-size: 1.2em;
   font-weight: normal;
@@ -172,7 +166,7 @@ span.menu  {
   color: #eee;
 }
 
-/* ---- */
+/* small screen */
 @media screen and (max-width: 768px){	
   .top-nav {
     float: right;
