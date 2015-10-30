@@ -216,7 +216,6 @@ span.menu  {
 @media screen and (min-width: 1380px){	
   body {
     width: 1360px;
-    align-self: center;
   }
   .col-left {
     float: left;
