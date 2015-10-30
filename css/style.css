@@ -150,18 +150,21 @@ span.menu  {
   font-weight: normal;
   color: black;
 }
-.col-left, .col-mid, .col-right {
+.col-left {
   float: left;
+}
+.col-right {
+  float: right;
 }
 
 /* footer */
 .footer {
   padding: 4em 0 4em;
-  text-align: center;
   background-color:#356191;
 }
 
 .footer p {
+  text-align: center;
   font-size: 0.8em;
   color: #eee;
 }
@@ -204,8 +207,21 @@ span.menu  {
     display: block;
     float: none;
   }
-  .col-left, .col-mid, .col-right {
+  .col-left, .col-right {
     float: none;
-    width: auto;
+  }
+}
+
+/* huge screen */
+@media screen and (min-width: 1380px){	
+  body {
+    width: 1360px;
+    align-self: center;
+  }
+  .col-left {
+    float: left;
+  }
+  .col-right {
+    float: right;
   }
 }
