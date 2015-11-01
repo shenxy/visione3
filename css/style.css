@@ -11,7 +11,7 @@ a {
   max-width: 100%;
   height: auto;
 }
-.header, .content, .footer, .clearfix {
+.header, .content, .footer {
   clear: both;
 }
 
@@ -152,18 +152,21 @@ span.menu  {
 }
 .col-left {
   float: left;
+  padding: 0em 1em 1em 0em;
 }
 .col-right {
   float: right;
+  padding: 0em 0em 1em 0em;
 }
 
 /* footer */
 .footer {
-  padding: 4em 0 4em;
+  padding: 3em 0 3em;
   background-color:#356191;
 }
 
 .footer p {
+  padding: 1em;
   text-align: center;
   font-size: 0.8em;
   color: #eee;
@@ -213,9 +216,9 @@ span.menu  {
 }
 
 /* huge screen */
-@media screen and (min-width: 1380px){	
+@media screen and (min-width: 1420px){	
   body {
-    width: 1360px;
+    width: 1400px;
   }
   .col-left {
     float: left;
