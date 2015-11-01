@@ -1,1 +1,1 @@
-1. if the popup menu is hidden by the user, the normal menu does not show up when the page is enlarged to normal size;
+1. if the popup menu is hidden by the user, the normal menu will not show up when the page is enlarged to normal size;
